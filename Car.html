@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Phoenix Store</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+                            
+        <link href="fontawesome-free-5.15.3-web/css/fontawesome.css" rel="stylesheet">
+        <link href="fontawesome-free-5.15.3-web/css/brands.css" rel="stylesheet">
+        <link href="fontawesome-free-5.15.3-web/css/solid.css" rel="stylesheet">
+    </head>
+    <body>
+         <!--Start Header-->
+        <header class="p-3 text-white">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <img width="120px" height="105px" src="img/kisspng-phoenix-dynamic-sports-entertainment-management-lo-5aeeb16be9a979.1305743215255924279571.png">
+              </a>
+
+              <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="index.html" class="nav-link px-2 text-white">
+                    <i class="fas fa-igloo fa-sm" style="color:#ff922b ;"></i> Home</a></li>
+                 <li class="nav-item-dark dropdown ">
+                     <a class="nav-link dropdown-toggle text-secondary" href="idex.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-truck-monster fa-xs fa-pulse" style="color: #da872b;"></i>
+                        Cars
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="phones.html"><i class="fas fa-mobile-alt fa-sm" style="color: #ff922b;"></i>Phones</a></li>
+                        <li><a class="dropdown-item" href="games.html"><i class="fas fa-gamepad fa-sm" style="color: #ff922b";></i>Games</a></li>
+                      </ul>
+                    </li>
+                <li><a href="Pricing.html" class="nav-link px-2 text-white"><i class="fas fa-tags fa-sm" style="color: #ff922b";></i>Pricing</a></li>
+                <li><a href="about.html" class="nav-link px-2 text-white"><i class="fas fa-concierge-bell fa-sm" style="color: #ff922b"></i>Service</a></li>
+              </ul>
+
+              <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                <input type="search" class="form-control form-control-dark" placeholder="Search...">
+              </form>
+
+              <div class="text-end">
+                <button type="button" class="btn btn-outline-light me-2">Login</button>
+                <button type="button" class="btn btn-warning">Sign-up</button>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!--End Header-->
+        <!--Start Background-->
+        <div class="Background">
+            <center>
+                <h1 class="logo">PHOENIX</h1>
+                <!-- Button trigger modal -->
+                <button id="select" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <i class="fas fa-map-marker-alt fa-sm"></i>Select Location
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">
+                            <i class="fas fa-map-marked-alt"></i>Select Location
+                          </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-dialog-scrollable">
+                        <form>
+                            <input id="modal" type="search" class="form-control form-control-dark" placeholder="Enter a City">
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Selected</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <form>
+                    <input id="search" type="search" class="form-control form-control-dark" placeholder="Search by make, model, body type">
+                </form>
+            </center>
+        </div>
+        <!--End Background-->
+        <!--Start content -->
+        <br>
+            <h2>We take the guesswork out</h2>
+        <div class="big">
+            <div class="small">
+                <img src="img/dealRatings.png" alt="dealrating">
+                <h4>Know the real deal</h4>
+                <p>Our algorithm rates just 30% of cars a good or great deal.</p>   
+            </div>
+            <div class="small">
+                <img src="img/financing.png" alt="financing">
+                <h4>Finance in advance</h4>
+                <p>View personalized, real rates before you even talk to a dealer.</p>
+            </div>
+            <div class="small">
+                <img src="img/details.png" alt="details">
+                <h4>See the details that matter</h4>
+                <p>Accident history, price drops, days on lot… find it all here.</p>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <h2><i class="fas fa-running fa-sm"></i> SPORT CARS</h2>
+        <div class="biger">
+            <div class="small child">
+                <div class="face">
+                <img height="302px" src="img/2016%20Chevrolet%20Corvette%20Z06.webp" alt="2016 Chevrolet Corvette Z06">
+                    <br>
+                    <br>
+                 <h4>2016 Chevrolet Corvette Z06</h4>
+                </div>
+                <div class="back">
+                    <h3>$65,097</h3>
+                    <p>est. $938/mo</p>
+                    <p>41,964 Miles</p>
+                    <a href="https://www.autolist.com/chevrolet-corvette#vin=1G1YT3D62G5603502">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2020%20Ford%20Mustang%20Shelby%20GT350.jpg" alt="2020 Ford Mustang Shelby GT350">
+                    <br>
+                    <br>
+                    <h4>2020 Ford Mustang Shelby GT350</h4>
+                </div>
+                <div class="back">
+                    <h3>$66,980</h3>
+                    <p>est. $965/mo</p>
+                    <p>1,717 Miles</p>
+                    <a href="https://www.autolist.com/ford-mustang#vin=1FA6P8JZXL5552426">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2017%20BMW%205%20Series%20530i%20xDrive.jpg" alt="2017 BMW 5 Series 530i xDrive">
+                    <br>
+                    <br>
+                    <h4>2017 BMW 5 Series 530i xDrive</h4>
+                </div>
+                <div class="back">
+                    <h3>$29,499</h3>
+                    <p>est. $425/mo</p>
+                    <p>21,526 Miles</p>
+                    <a href="https://www.autolist.com/bmw-5+series#vin=WBAJA7C31HG906819">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2018%20Tesla%20Model%203%20Long%20Range.jpg" alt="2018 Tesla Model 3 Long Range">
+                    <br>
+                    <br>
+                    <h4>2018 Tesla Model 3 Long Range</h4>
+                </div>
+                <div class="back">
+                    <h3>$39,999</h3>
+                    <p>est. $577/mo</p>
+                    <p>19,052 Miles</p>
+                    <a href="https://www.autolist.com/tesla-model+3#vin=5YJ3E1EA1JF098903">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2018%20Chevrolet%20Camaro%20SS.jpg" alt="2018 Chevrolet Camaro SS">
+                    <br>
+                    <br>
+                    <h4>2018 Chevrolet Camaro SS</h4>
+                </div>
+                <div class="back">
+                    <h3>$37,999</h3>
+                    <p>est. $548/mo</p>
+                    <p>23,727 Miles</p>
+                    <a href="https://www.autolist.com/chevrolet-camaro#vin=1G1FE1R77J0156144">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2018%20Tesla%20Model%203%20Standard.jpg" alt="2018 Tesla Model 3 Standard">
+                    <br>
+                    <br>
+                    <h4>2018 Tesla Model 3 Standard</h4>
+                </div>
+                <div class="back">
+                    <h3>$39,999</h3>
+                    <p>est. $577/mo</p>
+                    <p>7,029 Miles</p>
+                    <a href="https://www.autolist.com/tesla-model+3#vin=5YJ3E1EA0JF168732">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2017%20Dodge%20Charger%20R-T%20Scat%20Pack.jpg" alt="2017 Dodge Charger R/T Scat Pack">
+                    <br>
+                    <br>
+                    <h4>2017 Dodge Charger R/T Scat Pack</h4>
+                </div>
+                <div class="back">
+                    <h3>$38,999</h3>
+                    <p>est. $562/mo</p>
+                    <p>29,299 Miles</p>
+                    <a href="https://www.autolist.com/dodge-charger#vin=2C3CDXGJ7HH660119">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2016%20Chevrolet%20Camaro%20SS.jpg" alt="2016 Chevrolet Camaro SS">
+                    <br>
+                    <br>
+                    <h4>2016 Chevrolet Camaro SS</h4>
+                </div>
+                <div class="back">
+                    <h3>$36,999</h3>
+                    <p>est. $533/mo</p>
+                    <p>26,246 Miles</p>
+                    <a href="https://www.autolist.com/chevrolet-camaro#vin=1G1FG1R74G0179755">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2015%20Ford%20Mustang%20GT%2050%20Years%20Limited%20Edition.jpg" alt="2015 Ford Mustang GT 50 Years Limited Edition">
+                    <br>
+                    <br>
+                    <h4>2015 Ford Mustang GT 50 Years Limited Edition</h4>
+                </div>
+                <div class="back">
+                    <h3>$37,999</h3>
+                    <p>est. $548/mo</p>
+                    <p>15,444 Miles</p>
+                    <a href="https://www.autolist.com/ford-mustang#vin=1FA6P8RF7F5500122">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2017%20Mercedes-Benz%20E-Class%20AMG%20E%2043.webp" alt="2017 Mercedes-Benz E-Class AMG E 43">
+                    <br>
+                    <br>
+                    <h4>2017 Mercedes-Benz E-Class AMG E 43</h4>
+                </div>
+                <div class="back">
+                    <h3>$46,499</h3>
+                    <p>est. $965/mo</p>
+                    <p>48,001 Miles</p>
+                    <a href="https://www.autolist.com/mercedes+benz-e+class#vin=WDDZF6EB6HA187484">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2017%20Ford%20Mustang%20Shelby%20GT350.jpg" alt="2017 Ford Mustang Shelby GT350">
+                    <br>
+                    <br>
+                    <h4>2017 Ford Mustang Shelby GT350</h4>
+                </div>
+                <div class="back">
+                    <h3>$50,899</h3>
+                    <p>est. $734/mo</p>
+                    <p>38,561 Miles</p>
+                    <a href="https://www.autolist.com/ford-mustang#vin=1FA6P8JZ0H5526750">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2018%20Porsche%20Panamera%20Base.jpg" alt="2018 Porsche Panamera Base">
+                    <br>
+                    <br>
+                    <h4>2018 Porsche Panamera Base</h4>
+                </div>
+                <div class="back">
+                    <h3>$71,999</h3>
+                    <p>est. $1,038/mo</p>
+                    <p>25,273 Miles</p>
+                    <a href="https://www.autolist.com/porsche-panamera#vin=WP0AA2A77JL110438">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2019%20Dodge%20Challenger%20R-T%20Scat%20Pack.jpg" alt="2019 Dodge Challenger R/T Scat Pack">
+                    <br>
+                    <br>
+                    <h4>2019 Dodge Challenger R/T Scat Pack</h4>
+                </div>
+                <div class="back">
+                    <h3>$43,999</h3>
+                    <p>est. $634/mo</p>
+                    <p>5,825 Miles</p>
+                    <a href="https://www.autolist.com/dodge-challenger#vin=2C3CDZFJ7KH758989">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2017%20Chevrolet%20Corvette%20Stingray.jpg" alt="2017 Chevrolet Corvette Stingray">
+                    <br>
+                    <br>
+                    <h4>2017 Chevrolet Corvette Stingray</h4>
+                </div>
+                <div class="back">
+                    <h3>$49,999</h3>
+                    <p>est. $721/mo</p>
+                    <p>13,761 Miles</p>
+                    <a href="https://www.autolist.com/chevrolet-corvette#vin=1G1YA2D79H5102598">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2020%20Chevrolet%20Corvette%20Stingray.webp" alt="2020 Chevrolet Corvette Stingray">
+                    <br>
+                    <br>
+                    <h4>2020 Chevrolet Corvette Stingray</h4>
+                </div>
+                <div class="back">
+                    <h3>$96,998</h3>
+                    <p>est. $1,398/mo</p>
+                    <p>6,372 Miles</p>
+                    <a href="https://www.autolist.com/chevrolet-corvette#vin=1G1Y72D49L5101853">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+        <br>
+        <h2><i class="fas fa-car"></i> Coupes CARS</h2>
+        <div class="biger">
+            <div class="small child">
+                <div class="face">
+                <img height="302px" src="img/2017%20Lexus%20RC%20200t%20Base.jpeg" alt="2017 Lexus RC 200t Base">
+                    <br>
+                    <br>
+                 <h4>2017 Lexus RC 200t Base</h4>
+                </div>
+                <div class="back">
+                    <h3>$28,899</h3>
+                    <p>est. $417/mo</p>
+                    <p>37,401 Miles</p>
+                    <a href="https://www.autolist.com/lexus-rc+200t#vin=JTHHA5BC4H5006742">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2017%20Dodge%20Challenger%20GT.jpeg" alt="2017 Dodge Challenger GT">
+                    <br>
+                    <br>
+                    <h4>2017 Dodge Challenger GT</h4>
+                </div>
+                <div class="back">
+                    <h3>$25,498</h3>
+                    <p>est. $368/mo</p>
+                    <p>42,532 Miles</p>
+                    <a href="https://www.autolist.com/dodge-challenger#vin=2C3CDZGG0HH619704">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2017%20Lexus%20RC%20350%20Base.jpeg" alt="2017 Lexus RC 350 Base">
+                    <br>
+                    <br>
+                    <h4>2017 Lexus RC 350 Base</h4>
+                </div>
+                <div class="back">
+                    <h3>$32,999</h3>
+                    <p>est. $476/mo</p>
+                    <p>24,371 Miles</p>
+                    <a href="https://www.autolist.com/lexus-rc+350#vin=JTHHE5BC1H5016469">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2018%20Audi%20A5%202.0T%20quattro%20Premium%20Plus.jpeg" alt="2018 Audi A5 2.0T quattro Premium Plus">
+                    <br>
+                    <br>
+                    <h4>2018 Audi A5 2.0T quattro Premium Plus</h4>
+                </div>
+                <div class="back">
+                    <h3>$27,998</h3>
+                    <p>est. $404/mo</p>
+                    <p>35,308 Miles</p>
+                    <a href="https://www.autolist.com/audi-a5#vin=WAUPNAF58JA000538">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2018%20Dodge%20Challenger%20R-T%20Scat%20Pack.jpeg" alt="2018 Dodge Challenger R/T Scat Pack">
+                    <br>
+                    <br>
+                    <h4>2018 Dodge Challenger R/T Scat Pack</h4>
+                </div>
+                <div class="back">
+                    <h3>$36,999</h3>
+                    <p>est. $533/mo</p>
+                    <p>20,882 Miles</p>
+                    <a href="https://www.autolist.com/dodge-challenger#vin=2C3CDZFJ2JH178788">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2016%20Lexus%20RC%20200t%20Base.jpeg" alt="2016 Lexus RC 200t Base">
+                    <br>
+                    <br>
+                    <h4>2016 Lexus RC 200t Base</h4>
+                </div>
+                <div class="back">
+                    <h3>$25,899</h3>
+                    <p>est. $373/mo</p>
+                    <p>54,851 Miles</p>
+                    <a href="https://www.autolist.com/lexus-rc+200t#vin=JTHHA5BC5G5003184">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2018%20Audi%20A5%202.0T%20quattro%20Premium%20Plus.jpeg" alt="2018 Audi A5 2.0T quattro Premium Plus">
+                    <br>
+                    <br>
+                    <h4>2018 Audi A5 2.0T quattro Premium Plus</h4>
+                </div>
+                <div class="back">
+                    <h3>$28,999</h3>
+                    <p>est. $418/mo</p>
+                    <p>49,000 Miles</p>
+                    <a href="https://www.autolist.com/audi-a5#vin=WAUTNAF59JA003866">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2020%20Dodge%20Challenger%20R-T.jpg" alt="2020 Dodge Challenger R/T">
+                    <br>
+                    <br>
+                    <h4>2020 Dodge Challenger R/T</h4>
+                </div>
+                <div class="back">
+                    <h3>$36,499</h3>
+                    <p>est. $526/mo</p>
+                    <p>3,716 Miles</p>
+                    <a href="https://www.autolist.com/dodge-challenger#vin=2C3CDZBT6LH159428">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2016%20Dodge%20Challenger%20SRT%20392.jpg" alt="2016 Dodge Challenger SRT 392">
+                    <br>
+                    <br>
+                    <h4>2016 Dodge Challenger SRT 392</h4>
+                </div>
+                <div class="back">
+                    <h3>$41,999</h3>
+                    <p>est. $605/mo</p>
+                    <p>19,303 Miles</p>
+                    <a href="https://www.autolist.com/dodge-challenger#vin=2C3CDZDJ3GH118093">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2017%20Chevrolet%20Camaro%20SS.jpg" alt="2017 Chevrolet Camaro SS">
+                    <br>
+                    <br>
+                    <h4>2017 Chevrolet Camaro SS</h4>
+                </div>
+                <div class="back">
+                    <h3>$39,999</h3>
+                    <p>est. $577/mo</p>
+                    <p>7,887 Miles</p>
+                    <a href="https://www.autolist.com/chevrolet-camaro#vin=1G1FG1R7XH0150018">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2019%20Ford%20Mustang%20GT%20Premium.jpg" alt="2019 Ford Mustang GT Premium">
+                    <br>
+                    <br>
+                    <h4>2019 Ford Mustang GT Premium</h4>
+                </div>
+                <div class="back">
+                    <h3>$41,999</h3>
+                    <p>est. $605/mo</p>
+                    <p>2,763 Miles</p>
+                    <a href="https://www.autolist.com/ford-mustang#vin=1FA6P8CF0K5124155">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2017%20Ford%20Mustang%20V6.jpg" alt="2017 Ford Mustang V6">
+                    <br>
+                    <br>
+                    <h4>2017 Ford Mustang V6</h4>
+                </div>
+                <div class="back">
+                    <h3>$21,999</h3>
+                    <p>est. $317/mo</p>
+                    <p>48,643 Miles</p>
+                    <a href="https://www.autolist.com/ford-mustang#vin=1FA6P8AM9H5328334">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2019%20Chevrolet%20Camaro%20SS.jpg" alt="2019 Chevrolet Camaro SS">
+                    <br>
+                    <br>
+                    <h4>2019 Chevrolet Camaro SS</h4>
+                </div>
+                <div class="back">
+                    <h3>$44,499</h3>
+                    <p>est. $641/mo</p>
+                    <p>3,692 Miles</p>
+                    <a href="https://www.autolist.com/chevrolet-camaro#vin=1G1FE1R73K0151993">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2016%20Chevrolet%20Corvette%20Stingray.webp" alt="2016 Chevrolet Corvette Stingray">
+                    <br>
+                    <br>
+                    <h4>2016 Chevrolet Corvette Stingray</h4>
+                </div>
+                <div class="back">
+                    <h3>$52,998</h3>
+                    <p>est. $764/mo</p>
+                    <p>5,538 Miles</p>
+                    <a href="https://www.autolist.com/chevrolet-corvette#vin=1G1YD2D77G5107207">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="small child">
+                <div class="face">
+                    <img height="302px" src="img/2020%20Ford%20Mustang%20Shelby%20GT500.webp" alt="2020 Ford Mustang Shelby GT500">
+                    <br>
+                    <br>
+                    <h4>2020 Ford Mustang Shelby GT500</h4>
+                </div>
+                <div class="back">
+                    <h3>$93,998</h3>
+                    <p>est. $1,355/mo</p>
+                    <p>2,130 Miles</p>
+                    <a href="https://www.autolist.com/ford-mustang#vin=1FA6P8SJ6L5502227">
+                        <button>Learn More</button>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        <!--End content -->
+        <!-- Start Footer-->
+        <footer>
+            <center>
+                <br>
+                <h3><span>E</span>sraa <span>M</span>ohamed</h3>
+                <a href="https://www.facebook.com/">
+                <img class="icon" width="30px"  src="img/icons8-facebook-50.png">
+                </a>
+                <a href="https://www.whatsapp.com/">
+                <img class="icon" width="30px" src="img/icons8-whatsapp-50.png">
+                </a>
+                <a href="https://www.twitter.com/">
+                <img class="icon" width="30px" src="img/icons8-twitter-circled-50.png">
+                </a>
+                <a href="https://www.pinterest.com/">
+                <img class="icon" width="30px" src="img/icons8-pinterest-50.png">
+                </a>
+                <a href="https://www.instagram.com/">
+                <img class="icon" width="30px" src="img/icons8-instagram-50.png">
+                </a>
+                <a href="https://www.discord.com/">
+                <img class="icon" width="30px" src="img/icons8-discord-50.png">
+                </a>
+                <p>Copyright © 2021 Esraa. All rights reserved</p>
+            </center>
+        </footer>
+        <!-- End Footer-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    </body>
+</html>
